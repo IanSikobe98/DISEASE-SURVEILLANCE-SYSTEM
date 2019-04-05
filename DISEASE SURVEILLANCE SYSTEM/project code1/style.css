@@ -1,0 +1,250 @@
+*{
+margin: 0;
+padding: 0}
+
+body{
+
+	height :auto;
+}
+.header
+{
+background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Home.jpg);
+height : 500px;
+background-size: cover;
+background-position: center;
+
+}
+
+.main-nav
+{
+
+	float: right;
+	list-style: none;
+	margin-top:30px;
+	height:180px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+
+
+.main-nav li a {
+	color: 	white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 25px;
+}
+
+.main-nav li.active a{
+
+border :1px solid white;
+
+}
+.main-nav li a:hover 
+{
+	border :1px solid white;
+}
+
+
+.main-nav  li ul { display:none; position:absolute; } 
+.main-nav  li:hover ul{ display:block; background:white; height:auto; width:18em; } 
+.main-nav li ul li{clear:both; border-style:none;}
+.main-nav li ul li a {font-size: 20px; color: black;}
+.main-nav  li ul li :hover{background-color:grey}
+
+
+
+
+
+
+body{
+font-family: monospace;
+
+}
+.row
+{
+max-width: 1200px;
+margin:auto;
+
+}
+
+.Body2{
+
+height:400px;
+
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(b.jpg);
+
+}
+
+.Body3{
+
+height:500px;
+ background-color:#white;
+
+}
+
+
+.Footer-top{
+height:30px;
+ background-color:#42C0FB	;
+
+}
+.Footer{
+
+height:300px;
+ background-color:black;
+
+}
+
+.title
+{
+	width :1000px;
+	height:auto;
+	float: left;
+}
+
+.Heading
+{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	font-family: "Roboto",sans-serif;
+	}
+.Space{
+height: 500px;
+background-color: white ;
+float: left;
+}
+.motto{
+position: absolute;
+width 1200px;
+margin-left: 0px;
+margin-top: 0px;
+
+
+}
+.Space h1{
+size: 40px;
+}
+.text{
+color: white;
+text-transform: uppercase;
+font-size: 65px;
+text-align: center;
+margin-top:40px;
+
+}
+
+.Quick{
+float:left;
+size: auto;
+width:50%;
+height: 200px;
+}
+
+.Quick ul,.contactus ul{
+list-style-type: block; 
+margin: 0;
+padding: 0;
+} 
+.Quick li,.contactus li
+{
+	display:block;
+
+}
+
+
+.Quick li a,.quicklinksnm,.contact,.contactus li a{
+	color: 	white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 13px;
+}
+
+ 
+.contactus
+{
+float:right;
+width: 50%;
+height: 200px;
+}
+.footer-bottom{
+clear:both;
+
+height: 100px;
+background-color:  black;
+}
+
+.Report{float :left;
+	     background-color:white;
+	     width :25%;
+	      height:300px;}
+.Prediction{float: left;background-color:white;width :25%; height:300px;}
+.Analysis{float: right;background-color:white;width :25%; height:300px;}
+.Deduction{float: right;background-color: white;width :25%; height:300px;}
+
+.rimage{
+	height: 100px ;
+	width:50%;
+}
+.pimage{
+	height: 100px ;
+	width:90%;
+}
+.aimage{
+	height: 100px ;
+	width:90%;
+}
+.dimage{
+	height: 100px ;
+	width:94%;
+}
+.text2{
+color: white;
+font-size: 40px;
+text-align: center;
+margin-top:50px;
+font-family: "Roboto",sans-serif;
+}
+.text3{
+color: black;
+font-size: 50px;
+text-align: center;
+margin-top:50px;
+font-family: "Roboto",sans-serif;
+}
+.text4{
+color: black;
+font-size: 30px;
+text-align: left;
+margin-top:50px;
+font-family: "Roboto",sans-serif ;
+}
+
+
+.text5{
+color: white;
+font-size: 40px;
+text-align: center;
+margin-top:50px;
+font-family: "Courier New",monospace ;
+}
+
+.foottext{
+color: white
+}
+
+.footer-middle{
+height:100px;
+background-color:black;
+
+
+}
+.footer-middle{
+height:auto;
+ background-color:black	;
+
+}
