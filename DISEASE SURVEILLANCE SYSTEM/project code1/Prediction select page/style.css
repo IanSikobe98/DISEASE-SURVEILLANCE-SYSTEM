@@ -1,0 +1,299 @@
+*{
+margin: 0;
+padding: 0}
+
+body{
+
+	height :auto;
+}
+.header
+{
+
+height :76px;
+background-color:black;
+background-position: center;
+
+}
+
+.main-nav
+{
+
+	float: right;
+	list-style: none;
+	margin-top:30px;
+
+	height:180px;
+}
+.main-nav li
+{
+	display: block;
+}
+
+
+.main-nav li a {
+	color: 	white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 25px;
+}
+
+.main-nav li.active a{
+
+border :1px solid white;
+
+}
+.main-nav li a:hover 
+{
+	border :1px solid white;
+}
+
+
+.main-nav  li ul { display:none; position:absolute; } 
+.main-nav  li:hover ul{ display:block; background:black; height:auto; width:10em; } 
+.main-nav li ul li{clear:both; border-style:none;}
+.main-nav li ul li a {font-size: 20px; color: white;}
+.main-nav  li ul li :hover{background-color:grey}
+
+
+
+
+
+
+body{
+font-family: monospace;
+
+}
+.row
+{
+max-width: 1200px;
+margin:auto;
+
+}
+
+.Body2{
+
+height:400px;
+}
+
+.Body3{
+
+height:500px;
+ background-color:#white;
+
+}
+
+
+.Footer-top{
+height:30px;
+ background-color:#42C0FB	;
+ clear:both;
+
+}
+.Footer{
+
+height:300px;
+ background-color:black;
+
+}
+
+.title
+{
+	width :1000px;
+	height:auto;
+	float: left;
+}
+
+.Heading
+{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	font-family: "Roboto",sans-serif;
+	text-align: center;
+	margin-left: 200px
+	}
+.Space{
+height: 500px;
+background-color: white ;
+float: left;
+}
+.motto{
+position: absolute;
+width 1200px;
+margin-left: 0px;
+margin-top: 0px;
+
+
+}
+.Space h1{
+size: 40px;
+}
+.text{
+color: white;
+text-transform: uppercase;
+font-size: 65px;
+text-align: center;
+margin-top:50px;
+margin-left:450px;
+
+}
+
+.hrtitle{margin-left:450px;
+} 
+
+.Quick{
+float:left;
+size: auto;
+width:50%;
+height: 200px;
+}
+
+.Quick ul,.contactus ul{
+list-style-type: block; 
+margin: 0;
+padding: 0;
+} 
+.Quick li,.contactus li
+{
+	display:block;
+
+}
+
+
+.Quick li a,.quicklinksnm,.contact,.contactus li a{
+	color: 	white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 13px;
+}
+
+ 
+.contactus
+{
+float:right;
+width: 50%;
+height: 200px;
+}
+.footer-bottom{
+clear:both;
+
+height: 100px;
+background-color:  black;
+}
+
+.Report{float :left;
+	     background-color:white;
+	     width :25%;
+	      height:300px;}
+.Prediction{float: left;background-color:white;width :25%; height:300px;}
+.Analysis{float: right;background-color:white;width :25%; height:300px;}
+.Deduction{float: right;background-color: white;width :25%; height:300px;}
+
+.rimage{
+	height: 100px ;
+	width:50%;
+}
+.pimage{
+	height: 100px ;
+	width:90%;
+}
+.aimage{
+	height: 100px ;
+	width:90%;
+}
+.dimage{
+	height: 100px ;
+	width:94%;
+}
+.text2{
+color: white;
+font-size: 40px;
+text-align: center;
+margin-top:50px;
+font-family: "Roboto",sans-serif;
+}
+.text3{
+color: black;
+font-size: 50px;
+text-align: center;
+margin-top:50px;
+font-family: "Roboto",sans-serif;
+}
+.text4{
+color: black;
+font-size: 30px;
+text-align: left;
+margin-top:50px;
+font-family: "Roboto",sans-serif ;
+}
+
+
+.text5{
+color: white;
+font-size: 40px;
+text-align: center;
+margin-top:50px;
+font-family: "Courier New",monospace ;
+}
+
+.foottext{
+color: white
+}
+
+.footer-middle{
+height:100px;
+background-color:black;
+
+
+}
+.footer-middle{
+height:auto;
+ background-color:black	;
+
+}
+.rou-img{float:left;  width:40%;margin-left: 20%;}
+.ian{float:right; background-color:white; width:50%;}
+.contactd{height:200px; background-color:white;}
+.job-contact{height:auto; width:25% ;background-color:black;}
+.text9{color:white;font-size:20px;font-family: "Roboto",sans-serif;}
+.Sidebar{float:left;width:20%;  height: 400px;
+background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Red.jpg);
+height : 500px;
+background-size: cover;
+background-position: center;
+
+}
+.Sidebar-img{height:100% ; width: 50%;}
+.PSBody{height: auto;width :auto;}
+.lBody{
+float:right;width:80%;  height: auto;
+
+/*background-size: cover;*/
+/*background-position: center;*/
+}
+.logindi{margin-top:20px;
+         /*margin-right:110px; */
+         margin-left:150px;
+         height:450px;
+         color:black;
+         width: 80%;
+         background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(login.jpg);
+         background-size: 100%;
+         background-repeat: no-repeat;
+         
+
+}
+
+/*.imglog{
+	 size: 100%;
+     height:100%;
+}*/
+.logintitle{
+	background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ;
+	height:20%;
+	width: 100%;
+}
+.formti ,.lab1{color:white;
+/*font-color :white;*/}
